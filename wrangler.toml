@@ -17,12 +17,12 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 name = "cloudflare-docker-proxy"
 routes = [
    { pattern = "docker.mickey50.work", custom_domain = true },
-#   { pattern = "quay.libcuda.so", custom_domain = true },
-#   { pattern = "gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s-gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s.libcuda.so", custom_domain = true },
-#   { pattern = "ghcr.libcuda.so", custom_domain = true },
-#   { pattern = "cloudsmith.libcuda.so", custom_domain = true },
+   { pattern = "quay.mickey50.work", custom_domain = true },
+   { pattern = "gcr.mickey50.work", custom_domain = true },
+   { pattern = "k8s-gcr.mickey50.work", custom_domain = true },
+   { pattern = "k8s.mickey50.work", custom_domain = true },
+   { pattern = "ghcr.mickey50.work", custom_domain = true },
+   { pattern = "cloudsmith.mickey50.work", custom_domain = true },
  ]
 
 [env.production.vars]
